@@ -119,11 +119,13 @@
   font-weight: 700 !important;
 }
 
-/* Igualar a fonte do menu Mais */
+
+/* Padronizar os três itens do menu */
+.top nav > a,
 .top nav details.nav-dropdown > summary {
   color: #103d2d !important;
   font-family: "DM Sans", sans-serif !important;
   font-size: 13px !important;
   font-weight: 700 !important;
-  line-height: 1.5 !important;
 }
+
