@@ -171,3 +171,16 @@
   color: #ffffff !important;
 }
 
+/* Corrigir WhatsApp no cabeçalho da LUQUE */
+header.top nav#nav > a.nav-cta,
+header.top nav#nav > a.nav-cta:visited,
+header.top nav#nav > a.nav-cta:hover {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+header.top nav#nav > a.nav-cta * {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
