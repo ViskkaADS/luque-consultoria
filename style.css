@@ -110,3 +110,11 @@
   background: #e9f7ef !important;
   border-radius: 6px;
 }
+
+/* Uniformizar os itens do menu */
+.top nav .nav-dropdown > summary {
+  color: #103d2d !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+  font-weight: 700 !important;
+}
