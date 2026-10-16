@@ -96,6 +96,16 @@
   text-decoration: none !important;
 }
 
+/* Padronizar a cor do menu Mais */
+.top nav .nav-dropdown > summary {
+  color: #103d2d !important;
+  font-weight: 700 !important;
+}
+
+.top nav .nav-dropdown > summary:hover {
+  color: #159b51 !important;
+}
+
 .top nav .nav-dropdown-content > a:hover {
   background: #e9f7ef !important;
   border-radius: 6px;
