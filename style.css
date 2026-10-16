@@ -46,3 +46,16 @@
 .nav-more summary::-webkit-details-marker {
   display: none;
 }
+
+/* Remover seta nativa do menu Mais */
+summary {
+  list-style: none !important;
+}
+
+summary::marker {
+  content: "" !important;
+}
+
+summary::-webkit-details-marker {
+  display: none !important;
+}
