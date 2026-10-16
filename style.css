@@ -133,3 +133,52 @@ summary::-webkit-details-marker {
   padding: 10px !important;
   white-space: normal !important;
 }
+
+/* Correção do menu Mais - LUQUE */
+
+.top .nav-dropdown {
+  position: relative !important;
+  display: block !important;
+}
+
+.top .nav-dropdown > summary {
+  display: block !important;
+  list-style: none !important;
+  cursor: pointer;
+}
+
+.top .nav-dropdown > summary::marker {
+  content: "" !important;
+}
+
+.top .nav-dropdown > summary::-webkit-details-marker {
+  display: none !important;
+}
+
+.top .nav-dropdown .nav-dropdown-content {
+  position: absolute !important;
+  top: calc(100% + 12px) !important;
+  right: 0 !important;
+  width: 230px !important;
+  display: none !important;
+  flex-direction: column !important;
+  gap: 4px !important;
+  padding: 12px !important;
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15) !important;
+  z-index: 9999 !important;
+}
+
+.top .nav-dropdown[open] .nav-dropdown-content {
+  display: flex !important;
+}
+
+.top .nav-dropdown .nav-dropdown-content a {
+  display: block !important;
+  width: auto !important;
+  padding: 10px 12px !important;
+  color: #103d2d !important;
+  text-decoration: none !important;
+  white-space: normal !important;
+}
