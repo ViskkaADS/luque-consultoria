@@ -129,3 +129,34 @@
   font-weight: 700 !important;
 }
 
+/* LUQUE - Ajuste do submenu Mais no celular */
+@media (max-width: 700px) {
+
+  .top nav .nav-dropdown {
+    position: relative !important;
+    width: 100% !important;
+  }
+
+  .top nav .nav-dropdown > .nav-dropdown-content {
+    position: static !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    margin-top: 10px !important;
+    padding: 8px !important;
+    box-shadow: none !important;
+    border: 1px solid #e0e9e3 !important;
+    border-radius: 10px !important;
+  }
+
+  .top nav .nav-dropdown[open] > .nav-dropdown-content {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .top nav .nav-dropdown-content > a {
+    display: block !important;
+    padding: 10px 12px !important;
+  }
+}
+
