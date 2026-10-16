@@ -160,3 +160,14 @@
   }
 }
 
+/* LUQUE - Corrigir texto do botão WhatsApp */
+.top nav a.nav-cta,
+.top nav a.nav-cta:visited {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.top nav a.nav-cta:hover {
+  color: #ffffff !important;
+}
+
